@@ -1,0 +1,529 @@
+
+@font-face {
+    font-family: BebasNeue-regular;
+    src: url("../fonts/BebasNeue-Regular.otf");
+}
+
+@font-face {
+    font-family: BebasNeue-bold;
+    src: url("../fonts/BebasNeue-bold.otf");
+}
+
+@font-face {
+    font-family: BreeSerif-Regular;
+    src: url("../fonts/BreeSerif-Regular.otf");
+}
+
+@font-face{
+    font-family: 'Open Sans', sans-serif;
+}
+
+@media only screen and (min-device-width: 480px) {
+    
+}
+
+@media (max-width: 480px) {
+  .hello { 
+    font-size: 5em !important; 
+    }
+}
+
+body{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    font-family: Open Sans;
+    font-weight: 300;
+    color: #1D1C1C;
+}
+
+header{
+    background: rgba(0,0,0,0.4);
+    background-image:
+    url("../img/bgmac.png");
+    height: 100vh;
+    background-size: cover;
+    font-family: Open Sans;
+    background-attachment: fixed;
+    border-bottom: 1px solid #929ABB;
+    color: white;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.header-content-inside{
+    display: inline;
+}
+
+.header-content-inside #name{
+    color: #B6FFE8;
+    transition: 0.2s;
+} 
+
+#webdev{
+    border: 1px solid black;
+}
+
+header h1{
+    font-family: Open Sans;
+    font-weight: 200;
+    font-size: 6em;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.link:hover{
+    text-decoration: none;
+}
+
+
+.button-top{
+    background-color: transparent;
+    text-decoration: none;
+    border-width: 1.5px;
+    border-style: solid;
+    padding: 10px 20px;
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 200;
+    transition: 0.3s;
+    transition: all 0.3s ease-in-out;
+}
+
+.button-top:hover{
+    background-color: #9DF9F9;
+    text-decoration: none;
+    border-width: 1.5px;
+    border-style: solid;
+    padding: 10px 20px;
+    color: #272727;
+    border-color: #272727;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 200;
+
+}
+
+
+/*LOGO TOP*/
+.navbarx{
+    font-family: BebasNeue-regular;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+    
+
+
+.navbar-logo-picx{
+    padding: 10px;
+    width: 100px;
+}
+
+.nav-button{
+    z-index: 2000;
+    position: fixed;
+    left: 95%;
+    top: 45%;
+    transform: translateX(-50%) ;
+    text-align: right;
+}
+
+
+/*START OF WEBSITE HEADER*/
+.header-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/*ABOUT CONTENT*/
+.about-content{
+    background-color: #F6F6F6;
+    border-bottom: 1px solid #A9A9A9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.about-content-inside{
+    padding: 10px;
+
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.about-content h3{
+    margin: 0px;
+}
+
+#myName{
+    font-family: Open Sans;
+    font-weight: 100;
+}
+
+
+
+.about-content .about-content-inside .hello-button .button{
+    background-color: transparent;
+    text-decoration: none;
+    border-width: 1.5px;
+    border-style: solid;
+    padding: 13px 26px;
+    color: #272727;
+    border-color: #272727;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 200;
+    transition: 0.3s;
+}
+
+.about-content .about-content-inside .hello-button .button:hover{
+    background-color: #9DF9F9;
+    text-decoration: none;
+    border-width: 1.5px;
+    border-style: solid;
+    padding: 13px 26px;
+    color: #272727;
+    border-color: #272727;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 200;
+}
+
+.about-content-inside .hello-button{
+    border-top: 1px solid #CCC;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+/*SKILLS CONTENT*/
+.my-skills{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: whitesmoke;
+    border-bottom: 1px solid #676767;
+}
+
+.my-skills h1{
+    font-family: Open Sans;
+    font-weight: 300;
+}
+
+.my-skills h3{
+    font-family: Open Sans;
+    font-weight: 500;
+}
+
+
+.skills-details h3{
+    font-family: Open Sans;
+    font-weight: 300;
+}
+
+
+
+.my-skills-content{
+    margin: 10px;
+    text-align: center;
+}
+
+.my-skills-content-header{
+    background-color: white;
+}
+
+.my-skills .my-skills-content .skill-icons .skill-icon-list{
+    width: 25%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+.icon:hover{
+    -webkit-filter: contrast(500%);
+}
+
+
+.my-skills .my-skills-content .skill-icons li{
+    width: auto;
+    margin: 10px;
+    display: inline-block;
+    padding: 10px;
+}
+
+.skills-details{
+    background-image: url("../img/passion.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 20px;
+    border-bottom: 1px solid #00BFF3;
+
+    text-align: center;
+    color: white;
+}
+
+.skill-details .container. .col-sm-6 .profile p{
+    color: white;
+}
+
+.profile{
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 200;
+    color: white !important;
+}
+
+#myName{
+    font-weight: 400;
+}
+
+#mypic{
+    width: 350px;
+    margin: auto;
+}
+
+.icon{
+    width: 100px;
+    height: 100px;
+    transition: 0.2s;
+}
+
+.half-rule{
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top: 1px solid #D0D0D0 !important;
+}
+
+/*WORKS CONTENT*/
+.portfolio-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background-color: whitesmoke;
+    border-bottom: 1px solid #B7B7B7;
+    font-family: Open Sans !important;
+
+    padding-bottom: 10px;
+}
+
+
+
+.portfolio-cotent-inside h1, h2, p{
+    font-family: Open Sans !important;
+    font-weight: 300;
+}
+
+.photo{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 224px;
+    overflow: hidden;
+}
+
+
+.photo-caption{
+    position: absolute;
+    color: #fff;
+    opacity: 1;
+    bottom: -100px;
+    border-top: 1px solid #00637D;
+
+    width: 100%;
+    background-color: rgba(0, 191, 243, 0.3);
+}
+
+.view-site{
+    background: transparent;
+    border: 1px solid black;
+    text-decoration: none !important;
+    color: white;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.photo-caption h4, h5{
+    font-family: Open Sans !important;
+    font-weight: 300;
+}
+
+
+.portfolio{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 0;
+    width: 500px;
+
+    overflow: hidden;
+}
+
+
+.button-top-dark{
+    background-color: transparent;
+    text-decoration: none;
+    border-width: 1.5px;
+    border-style: solid;
+    padding: 10px 20px;
+    color: #FFFFFF;
+    border-color: rgba(53, 53, 53, 0.37);
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 200;
+    margin: 10px;
+    transition: 0.3s;
+    transition: all 0.3s ease-in-out;
+}
+
+.button-top-dark:hover{
+    background-color: #9DF9F9;
+    text-decoration: none;
+    border-width: 1.5px;
+    border-style: solid;
+    padding: 10px 20px;
+    color: #272727;
+    border-color: rgba(53, 53, 53, 0.37);
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 200;
+
+}
+
+
+footer{
+    background-color: #585650;
+    width: 100%;
+    background-size: cover;
+}
+
+
+.bottom{
+    overflow: auto;
+}
+
+.footer-icon-wrapper{
+}
+
+footer .bottom{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer .bottom-inside{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+footer .bottom .foot{
+    padding-top: 10px;
+}
+
+footer .bottom .name{
+    margin: 0px 10px 0px;
+    font-size: 12px;
+    color: grey;
+    float: left;
+}
+
+footer .bottom .bottom-inside .name p{
+    color: white;
+    margin: 0px;
+}
+
+footer .bottom .footer-icon-wrapper{
+    float: right;
+}
+
+footer .bottom .footer-icon-wrapper .footer-icon{
+    margin: 10px 20px 10px;
+    width: 40px;
+}
+
+
+
+
+/*PROGRESS BAR*/
+.progress {
+    position: relative;
+    height: 40px !important;
+    margin-bottom: 10px !important;
+    background-color: rgba(0,191,243,0.3) !important;
+    border-radius: 6px !important;
+}
+
+.progress-bar-danger{
+    background-color: #00BFF3 !important;;
+}
+
+.progress-bar-danger:hover {
+    background-color: #5AD4EF !important;
+}
+
+
+
+.progress > .progress-type {
+    font-family: Open sans !important;
+    width: 120px;
+    position: absolute;
+    left: 0px;
+    font-weight: 200;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(25, 25, 25, 0.2);
+}
+
+.progress > .progress-completed {
+    font-family: Open sans !important;
+    position: absolute;
+    right: 0px;
+    font-weight: 400;
+    padding: 3px 10px 2px;
+}
