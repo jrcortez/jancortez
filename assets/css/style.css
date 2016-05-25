@@ -18,6 +18,16 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+@media only screen and (min-device-width: 480px) {
+    
+}
+
+@media (max-width: 480px) {
+  .hello { 
+    font-size: 5em !important; 
+    }
+}
+
 body{
     font-size: 20px;
     margin: 0;
@@ -31,8 +41,8 @@ header{
     background: rgba(0,0,0,0.4);
     background-image:
     url("../img/bgmac.png");
-    height: 100vh;
     background-size: cover;
+    height: 100vh;
     font-family: Open Sans;
     background-attachment: fixed;
     border-bottom: 1px solid #929ABB;
@@ -45,7 +55,21 @@ header{
 
 }
 
+/*START OF WEBSITE HEADER*/
+.header-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 .header-content-inside{
+
     display: inline;
 }
 
@@ -134,18 +158,7 @@ header h1{
 }
 
 
-/*START OF WEBSITE HEADER*/
-.header-content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    text-align: center;
 
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
 
 /*ABOUT CONTENT*/
 .about-content{
