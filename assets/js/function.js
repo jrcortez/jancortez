@@ -17,7 +17,7 @@
 
 
 //slider
-   $('.pwhoto').hover(function(){
+   $('.photo').hover(function(){
 
    		$(this).find('.photo-caption')
    		.stop()
@@ -29,7 +29,7 @@
    		$(this)
    		.find('.photo-caption')
    		.stop()
-   		.animate({bottom : '-70px'}, {duration: 1600, easing : 'easeOutQuart'});
+   		.animate({bottom : '-85px'}, {duration: 1600, easing : 'easeOutQuart'});
 
    });
 
@@ -49,3 +49,11 @@ $(function() {
     }
   });
 });
+
+
+$(".blog-link").mouseenter(function(){
+	$(".blog-link").text("UNDERCONSTRUCTION");
+}).mouseleave(function(){
+	$(".blog-link").text("BLOG");
+});
+
